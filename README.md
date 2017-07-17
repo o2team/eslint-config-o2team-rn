@@ -14,7 +14,7 @@ $ npm install --save-dev eslint eslint-config-o2team-rn
 
 ### eslint-config-o2team-rn
 
-Once the `eslint-config-o2team-rn` package is installed, you can use it by specifying `o2team` in the `extends` section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `eslint-config-o2team-rn` package is installed, you can use it by specifying `o2team-rn` in the `extends` section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
@@ -25,7 +25,7 @@ Once the `eslint-config-o2team-rn` package is installed, you can use it by speci
 }
 ```
 
-or yml:
+or specifying in `.eslintrc.yml`:
 
 ```yml
 
