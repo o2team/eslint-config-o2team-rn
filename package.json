@@ -1,0 +1,36 @@
+{
+    "name": "eslint-config-o2team-rn",
+    "version": "0.1.0",
+    "description": "ESLint Shareable Config for the O2Team RN Style Guide. Base on eslint-config-o2team.",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/o2team/eslint-config-o2team-rn.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "o2team",
+        "rn",
+        "react-native"
+    ],
+    "author": "o2team",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/o2team/eslint-config-o2team-rn/issues"
+    },
+    "homepage": "https://github.com/o2team/eslint-config-o2team-rn#readme",
+    "devDependencies": {
+        "eslint-config-o2team": "https://github.com/o2team/eslint-config-o2team.git",
+        "ava": "^0.18.2",
+        "eslint": "^3.19.0",
+        "eslint-plugin-react": "^7.0.1",
+        "eslint-plugin-react-native": "^2.3.2"
+    },
+    "peerDependencies": {
+        "eslint": ">=3"
+    }
+}
