@@ -18,11 +18,22 @@ Once the `eslint-config-o2team-rn` package is installed, you can use it by speci
 
 ```js
 {
-  "extends": "o2team-rn",
+  "extends": "eslint-config-o2team-rn",
   "rules": {
     // Additional, per-project rules...
   }
 }
+```
+
+or yml:
+
+```yml
+
+extends:
+  - eslint-config-o2team-rn
+rules: 
+  # Additional, per-project rules...
+
 ```
 
 Or you can specifying `eslint-config-o2team-rn` in the `eslintConfig` section of your `package.json`
